@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Anime & Manga List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a; /* Blackish */
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #2ecc71; /* Slight Greenish */
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #2ecc71;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Anime & Manga List</h1>
+    </header>
+
+    <nav>
+        <a href="#anime">Anime List</a>
+        <a href="#manga">Manga List</a>
+        <a href="#games">Games</a>
+        <a href="#minecraft">Minecraft</a>
+    </nav>
+
+    <div class="container" id="anime">
+        <h2>Anime List</h2>
+        <ul>
+            <!-- Add your anime list here -->
+            <li>One Piece</li>
+            <li>Naruto</li>
+            <li>Attack on Titan</li>
+            <!-- Add more as needed -->
+        </ul>
+    </div>
+
+    <div class="container" id="manga">
+        <h2>Manga List</h2>
+        <ul>
+            <!-- Add your manga list here -->
+            <li>One Piece</li>
+            <li>Naruto</li>
+            <li>Dragon Ball</li>
+            <!-- Add more as needed -->
+        </ul>
+    </div>
+
+    <div class="container" id="games">
+        <h2>Games</h2>
+        <p>Mobile Games:</p>
+        <ul>
+            <!-- Add your favorite mobile games here -->
+            <li>PUBG Mobile</li>
+            <li>Genshin Impact</li>
+            <li>Pokemon Go</li>
+            <!-- Add more as needed -->
+        </ul>
+    </div>
+
+    <div class="container" id="minecraft">
+        <h2>Minecraft</h2>
+        <p>I love playing Minecraft!</p>
+        <p>Do you play on Java Edition or Bedrock Edition?</p>
+    </div>
+
+    <footer>
+        <p>Created by [Your Name or Username] | &copy; 2024</p>
+    </footer>
+</body>
+</html>
